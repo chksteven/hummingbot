@@ -1,0 +1,13 @@
+# Global configuration file for Hummingbot
+
+# DA API configuration
+da_api_username: "your_actual_username"
+da_api_password: "your_actual_password"
+
+# Other configurations
+# Add more settings as needed, e.g., log levels, other connectors, etc.
+log_level: "info"
+commands_timeout:
+  other_commands_timeout: 30
+  order_commands_timeout: 30
+  connection_timeout: 15
